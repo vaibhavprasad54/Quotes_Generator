@@ -1,0 +1,102 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+html{
+    background-color: #57837B;
+}
+.content{
+    max-width: 600px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #C8C6A7;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 12px 14px 14px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 12px 14px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 14px 14px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+
+}
+
+.card h2{
+    font-size: 27px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card p{
+    font-size: 18.5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn{
+    display: block;
+    margin: 10px auto;
+    padding: 14px;
+    font-size: 1em;
+    letter-spacing: 0.7px;
+    border-radius: 5px;
+    border-color: black;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #423F3E;
+    border-color: #423F3E;
+    border: none;
+}
+
+#quote{
+    font-weight: 400;
+    padding-bottom: 15px;
+    font-family: 'Lora', serif;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    background: #C8C6A7;
+    height: 70px;
+}
+
+.para1{
+    margin-top: 8.5px;
+    font-size: 0.84em;
+    letter-spacing: 1px;
+}
+
+.icons{
+    text-align: center;
+    width: 100%;
+    padding-top: 4px;
+}
+
+.fab{
+    margin: 5px;
+}
+
+.fa-instagram , .fa-github{
+    color: black;
+}
+
+.fa-youtube{
+    color: #c4302b;
+}
+
+@media screen and (max-width: 480px) {
+    .content{
+        width: 75%;
+    }
+  }
